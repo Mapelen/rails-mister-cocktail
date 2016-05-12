@@ -12,3 +12,5 @@ Ingredient.create(name: "mint leaves")
 Cocktail.create(name: "lemon sky")
 Cocktail.create(name: "ice mind")
 Cocktail.create(name: "mint leaves power")
+
+Dose.create(cocktail_id: 1, ingredient_id: 1, description: "great mix of fresh lemondeb")
