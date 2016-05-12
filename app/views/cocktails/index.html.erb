@@ -1,5 +1,6 @@
 <h1>Here are the cocktails</h1>
 
 <% @cocktails.each do |cocktail|%>
-<li><%= cocktail.name.capitalize%></li>
+<h2><%= cocktail.name.capitalize%></h2>
+<p style = unlisted><%= link_to "See more", cocktail_path(cocktail) %></p>
 <% end%>

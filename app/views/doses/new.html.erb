@@ -1,0 +1,9 @@
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.error_notification %>
+  <%= f.input :description %>
+<!-- Menu déroulant avec les ingrédients -->
+  <%= f.input :ingredient, collection: @ingredients %>
+  <%= f.submit "Add a dose" %>
+<% end %>
+
+

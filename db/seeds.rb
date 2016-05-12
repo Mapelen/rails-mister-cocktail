@@ -5,6 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
 Ingredient.create(name: "lemon")
 Ingredient.create(name: "ice")
 Ingredient.create(name: "mint leaves")
@@ -13,6 +15,5 @@ Cocktail.create(name: "lemon sky")
 Cocktail.create(name: "ice mind")
 Cocktail.create(name: "mint leaves power")
 
-Dose.create(cocktail_id: 1, ingredient_id: 1, description: "great mix of fresh lemondeb")
-
-p "seed done"
+# Dose.create(cocktail_id: 1, ingredient_id: 1, description: "great mix of fresh lemon")
+# Dose.create(cocktail_id: 1, ingredient_id: 2, description: "great mix of fresh lemon5")
