@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'cocktails/index'
+  # get 'cocktails/index'
 
   resources :ingredients
   resources :cocktails
